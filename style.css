@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.header, .description {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.chapter-container {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    text-align: center;
+}
+
+.chapter-container img {
+    height: 180px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882f6;
+    padding: 10px;
+    margin: 20px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+}
