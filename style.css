@@ -4,10 +4,6 @@ body {
     margin: 0;
 }
 
-h2 {
-    text-align: center;
-}
-
 .header, .description {
     display: flex;
     align-items: center;
@@ -17,6 +13,14 @@ h2 {
 
 .header {
     justify-content: space-between;
+    padding: 5px 60px;
+}
+
+.description {
+    justify-content: space-around;
+    font-size: 15px;
+    padding: 20px 60px 60px 60px;
+    gap: 20px;
 }
 
 .chapter-container {
@@ -32,19 +36,64 @@ h2 {
 }
 
 .quote {
+    font-size: 36px;
+    padding: 30px 120px;
     background-color: #e5e7eb;
     color: #1f2937;
+}
+
+.author {
+    font-weight: 550;
+    text-align: right;
 }
 
 .sign-up {
     display: flex;
     background-color: #3882f6;
     padding: 10px;
-    margin: 20px;
+    margin: 40px 70px;
+    border-radius: 6px;
 }
 
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
     text-align: center;
+}
+
+button {
+    width: 120px;
+    height: 34px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: solid;
+}
+
+.sign-up button {
+    border-color: #f9faf8;
+    border-width: 2px;
+}
+
+.description button {
+    border-style: none;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    margin-left: 10px;
 }
